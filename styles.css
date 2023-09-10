@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a08cd4;
+  overflow: hidden;
+  background-image: url(https://media.tenor.com/Nhzz1PT4XBUAAAAd/herta-honkaistarrail.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  transition: transform 5s linear;
+  padding-top: 3rem;
+}
+
+.container h1 {
+  font-size: 3.4rem;
+}
+
+.container h4 {
+  font-size: 1.6rem;
+}
+
+.container p {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+.container .box-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box-time .counter {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.box-time .text {
+  font-size: 1.6rem;
+}
+
+.container button {
+  padding: 14px 24px;
+  border-radius: 10px;
+  border: none;
+  background-color: #574f84;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.gif-background {
+  position: absolute;
+  width: 350px;
+  opacity: 0.1;
+  bottom: 0;
+  z-index: -99;
+}
+
+
+.footer-background {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
